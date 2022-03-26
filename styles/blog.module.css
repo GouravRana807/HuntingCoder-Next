@@ -1,0 +1,39 @@
+.main {
+  min-height: 100vh;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 3rem;
+}
+
+.blogItemh3 {
+  cursor: pointer;
+  font-size: 2rem;
+  margin: 0;
+  padding: 0;
+}
+.blogItemp {
+  max-width: 45vw;
+}
+.btn {
+  color: white;
+  background: black;
+  padding: 7px 10px;
+  border-radius: 6px;
+  font-size: 12px;
+  margin-bottom: 9px;
+  border: none;
+}
+
+.btn:hover {
+  background-color: rgb(8, 44, 248);
+}
+
+@media screen and (max-width: 445px) {
+  .main {
+    padding-left: 1rem;
+  }
+}

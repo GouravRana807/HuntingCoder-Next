@@ -1,0 +1,14 @@
+.container {
+  max-width: 45vw;
+  margin: 45px auto;
+}
+
+.center {
+  text-align: center;
+}
+
+@media screen and (max-width: 900px) {
+  .container {
+    max-width: 73vw;
+  }
+}
